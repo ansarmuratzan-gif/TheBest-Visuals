@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "thebestvisuals",
+  "version": "${version}",
+  "name": "TheBest Visuals",
+  "description": "Client-side HUD visuals: watermark, FPS, ping, coordinates, direction, time.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["thebest.visuals.TheBestVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
